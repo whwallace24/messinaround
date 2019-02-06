@@ -2273,7 +2273,7 @@ public class Main {
         Player player1 = didiVxander.get(0);
         Player player2 = didiVxander.get(1);
         pw.println("<div>");
-        pw.println("<caption><b>Xander Bogaerts vs. Didi Gregorius</b></caption>");
+        pw.println("<caption><b>Xander Bogarts vs. Didi Gregorius</b></caption>");
         pw.println("<TABLE BORDER><TR><TH><TH>" + player1.getName() + "<TH>" + player2.getName() + "</TR>");
         pw.format("<TR ALIGN=RIGHT><TD><strong>bWAR</strong><TD>%.1f<TD>%.1f", player1.getWar(), player2.getWar());
         pw.format("<TR ALIGN=RIGHT><TD><strong>fWAR</strong><TD>%.1f<TD>%.1f", player1.getFwar(), player2.getFwar());
